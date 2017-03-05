@@ -9,7 +9,7 @@ through, this will help you take it to 11.
 
 ![Blinky demo](./screenshots/blinky-demo.gif)
 
-Or go and [play with the demo.](http://blinky-app.s3-website-ap-southeast-2.amazonaws.com/).
+Or go and [play with the demo](http://blinky-app.s3-website-ap-southeast-2.amazonaws.com/).
 
 ## Install
 
