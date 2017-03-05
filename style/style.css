@@ -3,9 +3,9 @@
 }
 
 .blinky {
-    margin-top: 1em;
+    margin-top: 0.5em;
     color: white;
-    font-size: 10em;
+    font-size: 8em;
     animation: blink-animation 1.5s steps(2, start) infinite;
     text-align: center;
     text-transform: uppercase;
