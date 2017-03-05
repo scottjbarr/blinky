@@ -9,6 +9,11 @@ through, this will help you take it to 11.
 
 ![Blinky demo](./screenshots/blinky-demo.gif)
 
+## Install
+
+    yarn
+    npm start
+
 ## License
 
 The MIT License (MIT)
