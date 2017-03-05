@@ -1,25 +1,16 @@
-# ReduxSimpleStarter
+# Blinky
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+A little React Redux experiment that lets you blink and yell a message.
 
-###Getting Started###
+If you've ever been in a meeting, and your message just isn't getting
+through, this will help you take it to 11.
 
-There are two methods for getting started with this repo.
+[](https://cdn.meme.am/cache/instances/folder905/500x/70243905.jpg)
 
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
+## License
 
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
+The MIT License (MIT)
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+Copyright (c) 2017 Scott Barr
 
-```
-	> npm install
-	> npm start
-```
+See [LICENSE.md](LICENSE.md)
