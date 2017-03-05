@@ -1,0 +1,18 @@
+.App {
+    color: white;
+}
+
+.blinky {
+    margin-top: 1em;
+    color: white;
+    font-size: 10em;
+    animation: blink-animation 1.5s steps(2, start) infinite;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
