@@ -23,8 +23,6 @@ class ControlsContainer extends Component {
 }
 
 function mapPropsToState(state) {
-  console.log(state.controls)
-
   return {
     visible: state.controls.visible
   }
