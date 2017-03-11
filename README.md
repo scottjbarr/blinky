@@ -16,6 +16,12 @@ Or go and [play with the demo](http://blinky-app.s3-website-ap-southeast-2.amazo
     yarn
     npm start
 
+## Parameters
+
+e.g.
+
+    GET /?text=i%20pity%20the%20fool%21&color=red
+
 ## License
 
 The MIT License (MIT)

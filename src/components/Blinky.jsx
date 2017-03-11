@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import { messageInputOnChange } from '../actions/index'
+import { blinkyLoad } from '../actions/index'
+import querystring from 'urlite/querystring'
 
 class Blinky extends Component {
+  componentDidMount() {
+    const query = querystring.parse(window.location.search)
+    this.props.blinkyLoad(decodeURIComponent(query.text), query.color)
+  }
+
   render() {
     return (
       <div className="blinky">
@@ -18,4 +24,4 @@ function mapPropsToState({message}) {
   return {text}
 }
 
-export default connect(mapPropsToState, null)(Blinky)
+export default connect(mapPropsToState, {blinkyLoad})(Blinky)
